@@ -13,7 +13,7 @@ Demo: <https://yusanshi.com/posts/2019-12-17/emgithub/> (scroll to the bottom of
 
 There are two ways to use the service:
 
-1. Go to https://emgithub.com/ and paste the URL.
+1. Go to https://pibsas.github.io/githubwebcode/ and paste the URL.
 2. Open a file in GitHub and simply add "em" before "github.com" in the address bar.
 
 **ProTip**
