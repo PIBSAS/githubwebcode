@@ -1,6 +1,7 @@
-# emgithub
+# Fork emgithub
 
-https://emgithub.com/
+Original: https://emgithub.com/
+Fork: https://webcode.com/
 
 Embed a file from GitHub repository just like [GitHub Gist](https://gist.github.com/).
 
