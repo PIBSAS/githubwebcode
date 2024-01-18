@@ -132,10 +132,12 @@
   }
 
   /* hide content for small device */
-  @media (max-width: 575.98px) {
-    .emgithub-file .hide-in-phone {
-      display: none;
-    }
+  @media (max-width: 767px) {
+    .emgithub-file {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+   /* .emgithub-file .hide-in-phone {display: none;}*
   }
 </style>
 
