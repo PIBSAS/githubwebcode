@@ -435,6 +435,7 @@
         targetDiv.querySelector(".copy-btn").addEventListener('click', function (e) {
           e.preventDefault();
           e.cancelBubble = true;
+          const codeText = codeTag.textContent; //Get text to copy for GoogleSites
           copyTextToClipboard(codeText);
         });
       }
