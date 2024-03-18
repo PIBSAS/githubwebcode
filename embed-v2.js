@@ -506,6 +506,14 @@ function loadScript(src) {
     script.onload = resolve;
     script.onerror = reject;
     document.head.appendChild(script);
+  }).then(() => {
+    // Add event listener to manage copy to clipboard message for Google Sites lines 509 to 516 added
+    window.addEventListener('message', function(event) {
+      if (event.data && event.data.type === 'copy' && event.data.text) {
+        const textToCopy = event.data.text;
+        copyTextToClipboard(textToCopy);
+      }
+    });  
   });
 }
 
